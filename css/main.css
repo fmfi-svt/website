@@ -30,7 +30,12 @@ pre code {
 }
 
 
-.top-bar-section > ul > li {text-transform: uppercase;}
+/* header */
+.top-bar-section > ul > li {float: left;text-transform: uppercase;}
+.top-bar {overflow: visible;}
+.top-bar .title-area {float: left;}
+
+/* content */
 
 #welcome-panel > h1 {margin-bottom: 0.3em;}
 
