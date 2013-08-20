@@ -1,0 +1,14 @@
+<ul>
+    <li>
+        <a href="{{ site.url }}/">domov</a>
+    </li>
+    <li {% if page.url contains '/projekt/' %}class="active"{% endif %}>
+        <a href="{{ site.url }}/#projekty">projekty</a>
+    </li>
+    <li {% if page.members %}class="active"{% endif %}>
+        <a href="{{ site.url }}/#clenovia">členovia</a>
+    </li>
+    <li {% if page.blog %}class="active"{% endif %}>
+        <a href="{{ site.url }}/blog">blog</a>
+    </li>
+</ul>

@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Nový web ŠVT"
+date:   2013-08-10 11:05:51
+author: kiko
+categories: blog
+---
+Vytvorili sme novú webovú stránku ŠVT, kde po novom pribudol [blog][]. Na blogu sa Vás budeme snažiť informovať o našich aktivitách, nových projektoch či zaujímavých technológiách. 
+
+### Technológie ###
+Stránka je vytvorená pomocou nástroja [Jekyll][jekyll]. Jekyll je generátor statických HTML stránok napísany v jazyku Ruby. Má podporu jednoduchého blogovania. Blogové príspevky je možné písať v jazyku [Markdown](http://daringfireball.net/projects/markdown/) alebo [Textile](http://textile.sitemonks.com/).
+
+Jekyll podporuje aj zvýrazňovanie syntaxe, napríklad:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Vizuál webstránky je založený na knižnici [Foundation 4](http://foundation.zurb.com).
+
+Dúfame, že sa Vám nová stránka páči.
+
+[jekyll]:    http://jekyllrb.com
+[blog]:     /blog

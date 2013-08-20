@@ -1,0 +1,14 @@
+name: Študentský vývojový tím FMFI UK
+email: fmfi-svt@googlegroups.com
+url: ~
+
+markdown: redcarpet
+pygments: true
+
+author_ids: [kiko]
+authors:
+    kiko:
+        display_name: Kristián Valentín
+        gravatar: 4eaffa2cd26b2dab6bdc7f038f981bfc
+        twitter: kikoval
+        github: kikoval

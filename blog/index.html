@@ -1,0 +1,19 @@
+---
+layout: default
+name: Blog
+---
+
+<div class="row">
+    <div class="large-8 columns">
+    {% for post in site.posts %}
+    <article class="post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="date"><time datetime="{{ post.date }}" pubdate="pubdate">{{ post.date | date_to_string }}</time></span>
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+    </div>
+    <div class="large-4 columns">
+        TODO
+    </div>
+</div>
