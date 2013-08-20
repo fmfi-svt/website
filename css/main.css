@@ -79,9 +79,10 @@ nav.bottom-bar ul li {
 }
 nav.bottom-bar ul li:last-child {border-right: none;}
 
-#back-to-top {
+.back-to-top {
     position: absolute;
     top: 1em;
     right: 1em;
 }
-#back-to-top:after {content: " ^";}
+.back-to-top:after {content: " ^";}
+#footer .back-to-top {top: 0;}
