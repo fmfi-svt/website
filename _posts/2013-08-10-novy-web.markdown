@@ -5,12 +5,12 @@ date:   2013-08-10 11:05:51
 author: kiko
 categories: blog
 ---
-Vytvorili sme novú webovú stránku ŠVT, kde po novom pribudol [blog][]. Na blogu sa Vás budeme snažiť informovať o našich aktivitách, nových projektoch či zaujímavých technológiách. 
+Vytvorili sme novú webovú stránku ŠVT, kde po novom pribudol [blog][]. Na blogu sa budeme snažiť informovať o našich aktivitách, nových projektoch či zaujímavých technológiách. 
 
-### Technológie ###
+## Technológie ##
 Stránka je vytvorená pomocou nástroja [Jekyll][jekyll]. Jekyll je generátor statických HTML stránok napísany v jazyku Ruby. Má podporu jednoduchého blogovania. Blogové príspevky je možné písať v jazyku [Markdown](http://daringfireball.net/projects/markdown/) alebo [Textile](http://textile.sitemonks.com/).
 
-Jekyll podporuje aj zvýrazňovanie syntaxe, napríklad:
+Jekyll podporuje aj zvýrazňovanie syntaxe zdrojového kódu, napríklad:
 
 {% highlight ruby %}
 def print_hi(name)
@@ -22,7 +22,12 @@ print_hi('Tom')
 
 Vizuál webstránky je založený na knižnici [Foundation 4](http://foundation.zurb.com).
 
-Dúfame, že sa Vám nová stránka páči.
+## Nový obsah ##
+Oproti predchádzajúcej verzii stránky pribudne viac obsahu o tom, čo robíme alebo čo ešte len chystáme. Dúfame, že sa tak motivujeme ľudí (napríklad aj Teba), aby sa k našim aktivitám pridali. Aj pre tento účel sme doplnili informácie o tom, [koho hľadáme do tímu](/#chcem-sa-pridat) a ako nás kontaktovať.
+
+## Máš nápad? ##
+
+Dúfame, že sa Vám nová stránka páči. Ak máš nápady či pripomienky, [napíš nám](mailto:{{ site.email }}), prípadne rovno [prispej do projektu na GitHub-e](https://github.com/fmfi-svt/website).
 
 [jekyll]:    http://jekyllrb.com
 [blog]:     /blog
