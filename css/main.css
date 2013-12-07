@@ -35,6 +35,8 @@ pre code {
 .top-bar {overflow: visible;}
 .top-bar .title-area {float: left;}
 
+#main-header {margin-bottom: 1.5em;}
+
 /* content */
 
 #welcome-panel > h1 {margin-bottom: 0.3em;}
